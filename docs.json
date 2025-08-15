@@ -20,7 +20,8 @@
               "zh/documentation/getting-started",
               "zh/documentation/task-signal",
               "zh/documentation/ai-chat",
-              "zh/documentation/pricing"
+              "zh/documentation/pricing",
+              "zh/faq/user"
             ]
           },
           {
@@ -30,7 +31,8 @@
               "en/documentation/getting-started",
               "en/documentation/task-signal",
               "en/documentation/ai-chat",
-              "en/documentation/pricing"
+              "en/documentation/pricing",
+              "en/faq/user"
             ]
           }
         ]
