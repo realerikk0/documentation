@@ -21,6 +21,9 @@
               "zh/documentation/task-signal",
               "zh/documentation/ai-chat",
               "zh/documentation/pricing",
+              "zh/documentation/stock-analysis",
+              "zh/documentation/news-market",
+              "zh/documentation/advanced",
               "zh/howto/download-signin",
               "zh/faq/user"
             ]
@@ -33,6 +36,9 @@
               "en/documentation/task-signal",
               "en/documentation/ai-chat",
               "en/documentation/pricing",
+              "en/documentation/stock-analysis",
+              "en/documentation/news-market",
+              "en/documentation/advanced",
               "en/howto/download-signin",
               "en/faq/user"
             ]
