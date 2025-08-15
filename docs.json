@@ -11,10 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "简体中文",
+        "tab": "Docs",
         "groups": [
           {
-            "group": "Documentation",
+            "group": "中文",
             "pages": [
               "zh/documentation/overview",
               "zh/documentation/getting-started",
@@ -22,14 +22,9 @@
               "zh/documentation/ai-chat",
               "zh/documentation/pricing"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "English",
-        "groups": [
+          },
           {
-            "group": "Documentation",
+            "group": "English",
             "pages": [
               "en/documentation/overview",
               "en/documentation/getting-started",
@@ -88,8 +83,16 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "简体中文",
+        "href": "https://doc.openstrat.ai/zh/documentation/overview"
+      },
+      {
+        "label": "/",
+        "href": "https://doc.openstrat.ai/#"
+      },
+      {
+        "label": "English",
+        "href": "https://doc.openstrat.ai/en/documentation/overview"
       }
     ],
     "primary": {

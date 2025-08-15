@@ -1,16 +1,31 @@
 ---
-title: Task & Technical Signals | Openstrat
+title: Task & Technical Signals
 description: Principles, types, grading and best practices for technical signals.
 ---
 
-<Callout>
-This is the English version; see <a href="/zh/documentation/task-signal" rel="alternate" hreflang="zh">任务与技术信号系统（中文）</a>
-</Callout>
+[中](/zh/documentation/task-signal) / [En](/en/documentation/task-signal)
 
 ## Principles
-(To be imported from raw)
+Signals are derived from historical prices, volumes, and indicators via pattern recognition and ML models.
+Core steps: data analysis → pattern recognition → probability estimation, with multi-timeframe, volatility,
+and volume-price confirmations.
 
 ## Types
 - Intraday/Weekly bottoms and tops
 - Price/Options alerts
+
+## Grading & performance
+- 50%–65%: mild; 65%–80%: moderate; 80%–100%: strong
+- Historical: bottoms ~68% avg, tops ~65% (lower during high volatility)
+- Personalized stats by symbol/type/timeframe
+
+## Best practices
+- Combine with fundamentals and events; avoid single-signal decisions
+- Prefer indicator resonance and cross-timeframe consistency
+- Diversify watched symbols; review and tune regularly
+
+## Risk management
+- Scale in; pyramid adds (with cap)
+- Fixed/technical/time-based stop loss
+- Adjust position dynamically based on follow-up signals
 
