@@ -84,15 +84,15 @@
     "links": [
       {
         "label": "简体中文",
-        "href": "https://doc.openstrat.ai/zh/documentation/overview"
+        "href": "https://lilynai.mintlify.app/zh/documentation/overview"
       },
       {
         "label": "/",
-        "href": "https://doc.openstrat.ai/#"
+        "href": "https://lilynai.mintlify.app/#"
       },
       {
         "label": "English",
-        "href": "https://doc.openstrat.ai/en/documentation/overview"
+        "href": "https://lilynai.mintlify.app/en/documentation/overview"
       }
     ],
     "primary": {

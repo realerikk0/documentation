@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-# Update this to your production domain when confirmed
-Sitemap: https://doc.openstrat.ai/sitemap.xml
+# temporary for debugging on preview domain
+Sitemap: https://lilynai.mintlify.app/sitemap.xml
 
