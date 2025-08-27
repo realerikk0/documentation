@@ -14,7 +14,7 @@
         "language": "cn",
         "groups": [
           {
-            "group": "Documentation",
+            "group": "使用指南",
             "pages": [
               "zh/documentation/overview",
               "zh/documentation/getting-started",
