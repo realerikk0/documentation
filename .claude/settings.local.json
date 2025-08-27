@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mint dev:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "WebSearch",
+      "WebFetch(domain:mintlify.com)",
+      "Bash(git init:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

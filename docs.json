@@ -3,18 +3,18 @@
   "theme": "mint",
   "name": "Openstrat Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4A90E2",
+    "light": "#00D4FF",
+    "dark": "#1A1A1A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Docs",
+        "language": "cn",
         "groups": [
           {
-            "group": "中文",
+            "group": "Documentation",
             "pages": [
               "zh/documentation/overview",
               "zh/documentation/getting-started",
@@ -23,13 +23,22 @@
               "zh/documentation/pricing",
               "zh/documentation/stock-analysis",
               "zh/documentation/news-market",
-              "zh/documentation/advanced",
-              "zh/howto/download-signin",
-              "zh/faq/user"
+              "zh/documentation/advanced"
             ]
           },
           {
-            "group": "English",
+            "group": "HowTo",
+            "pages": [
+              "zh/howto/download-signin"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Documentation",
             "pages": [
               "en/documentation/overview",
               "en/documentation/getting-started",
@@ -38,29 +47,13 @@
               "en/documentation/pricing",
               "en/documentation/stock-analysis",
               "en/documentation/news-market",
-              "en/documentation/advanced",
-              "en/howto/download-signin",
-              "en/faq/user"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "en/documentation/advanced"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "HowTo",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "en/howto/download-signin"
             ]
           }
         ]
@@ -70,18 +63,23 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://docs.openstrat.ai/zh/documentation/overview",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://discord.gg/openstrat",
+          "icon": "discord"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://blog.openstrat.ai",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "FAQ",
+          "href": "https://docs.openstrat.ai/zh/faq/user",
+          "icon": "circle-question"
         }
       ]
     }
@@ -91,24 +89,11 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "简体中文",
-        "href": "https://lilynai.mintlify.app/zh/documentation/overview"
-      },
-      {
-        "label": "/",
-        "href": "https://lilynai.mintlify.app/#"
-      },
-      {
-        "label": "English",
-        "href": "https://lilynai.mintlify.app/en/documentation/overview"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open App",
+      "href": "https://openstrat.ai"
     }
   },
   "contextual": {
@@ -125,9 +110,12 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/openstrat",
+      "github": "https://github.com/openstrat",
+      "linkedin": "https://linkedin.com/company/openstrat"
     }
-  }
+  },
+  "css": [
+    "/styles.css"
+  ]
 }
