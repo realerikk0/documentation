@@ -2,25 +2,66 @@
 
 /* 根变量定义 - 与 App 色彩保持一致 */
 :root {
-  /* 背景色系 */
+  /* 亮色模式 */
   --bg-main: #FFFFFF;
   --bg-card: #F0F4FF;
   --bg-card-secondary: #FFF9F0;
   
-  /* 文字色系 */
   --text-primary: #1A1A1A;
   --text-body: #333333;
   --text-secondary: #8B8B8B;
   
-  /* 强调色系 */
   --accent-blue: #4A90E2;
   --accent-orange: #FF9500;
   --accent-green: #00C853;
   --accent-red: #FF3B30;
   
-  /* 边框和装饰 */
   --border-light: #E8E8E8;
   --accent-cyan: #00D4FF;
+}
+
+/* 暗色模式变量 */
+[data-theme="dark"], .dark {
+  /* 暗色背景 */
+  --bg-main: #0F1419;
+  --bg-card: #1A1F2E;
+  --bg-card-secondary: #2A1F1A;
+  
+  /* 暗色文字 */
+  --text-primary: #F0F0F0;
+  --text-body: #D0D0D0;
+  --text-secondary: #A0A0A0;
+  
+  /* 增强对比度的强调色 */
+  --accent-blue: #5BA3F5;
+  --accent-orange: #FFA726;
+  --accent-green: #26E07F;
+  --accent-red: #FF5252;
+  
+  /* 暗色边框 */
+  --border-light: #333333;
+  --accent-cyan: #26C6DA;
+}
+
+/* 系统暗色模式自动适配 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg-main: #0F1419;
+    --bg-card: #1A1F2E;
+    --bg-card-secondary: #2A1F1A;
+    
+    --text-primary: #F0F0F0;
+    --text-body: #D0D0D0;
+    --text-secondary: #A0A0A0;
+    
+    --accent-blue: #5BA3F5;
+    --accent-orange: #FFA726;
+    --accent-green: #26E07F;
+    --accent-red: #FF5252;
+    
+    --border-light: #333333;
+    --accent-cyan: #26C6DA;
+  }
 }
 
 /* 全局背景 */
@@ -247,6 +288,47 @@ hr {
 .tag-red {
   background-color: rgba(255, 59, 48, 0.1);
   color: var(--accent-red);
+}
+
+/* 暗色模式特殊优化 */
+[data-theme="dark"] .card,
+.dark .card,
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  }
+}
+
+[data-theme="dark"] blockquote,
+.dark blockquote {
+  background-color: rgba(26, 31, 46, 0.8) !important;
+  border-left-color: var(--accent-blue) !important;
+}
+
+[data-theme="dark"] pre,
+.dark pre {
+  background-color: #1A1F2E !important;
+  border-color: #333333 !important;
+}
+
+[data-theme="dark"] code,
+.dark code {
+  background-color: rgba(26, 31, 46, 0.6) !important;
+  color: var(--text-primary) !important;
+}
+
+/* 暗色模式下的链接优化 */
+[data-theme="dark"] a:hover,
+.dark a:hover {
+  color: var(--accent-cyan) !important;
+  text-shadow: 0 0 8px rgba(38, 198, 218, 0.3) !important;
+}
+
+/* 暗色模式搜索框优化 */
+[data-theme="dark"] .search-input:focus,
+.dark .search-input:focus {
+  box-shadow: 0 0 0 2px rgba(91, 163, 245, 0.3) !important;
+  border-color: var(--accent-blue) !important;
 }
 
 /* 响应式调整 */
