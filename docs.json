@@ -27,6 +27,14 @@
             ]
           },
           {
+            "group": "投资知识库",
+            "pages": [
+              "zh/learn/why-quantitative-investing",
+              "zh/learn/reading-market-language",
+              "zh/learn/how-ai-makes-decisions"
+            ]
+          },
+          {
             "group": "HowTo",
             "pages": [
               "zh/howto/download-signin"
@@ -48,6 +56,12 @@
               "en/documentation/stock-analysis",
               "en/documentation/news-market",
               "en/documentation/advanced"
+            ]
+          },
+          {
+            "group": "Learn",
+            "pages": [
+              "en/learn/why-quantitative-investing"
             ]
           },
           {
