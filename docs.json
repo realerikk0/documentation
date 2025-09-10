@@ -12,63 +12,84 @@
     "languages": [
       {
         "language": "cn",
-        "groups": [
+        "tabs": [
           {
-            "group": "使用指南",
-            "pages": [
-              "zh/documentation/overview",
-              "zh/documentation/getting-started",
-              "zh/documentation/task-signal",
-              "zh/documentation/ai-chat",
-              "zh/documentation/pricing",
-              "zh/documentation/stock-analysis",
-              "zh/documentation/news-market",
-              "zh/documentation/advanced"
+            "tab": "使用文档",
+            "groups": [
+              {
+                "group": "使用指南",
+                "pages": [
+                  "zh/documentation/overview",
+                  "zh/documentation/getting-started",
+                  "zh/documentation/task-signal",
+                  "zh/documentation/ai-chat",
+                  "zh/documentation/pricing",
+                  "zh/documentation/stock-analysis",
+                  "zh/documentation/news-market",
+                  "zh/documentation/advanced"
+                ]
+              },
+              {
+                "group": "操作教程",
+                "pages": [
+                  "zh/howto/download-signin"
+                ]
+              }
             ]
           },
           {
-            "group": "投资知识库",
-            "pages": [
-              "zh/learn/why-quantitative-investing",
-              "zh/learn/comparison-traditional-vs-quantitative",
-              "zh/learn/reading-market-language",
-              "zh/learn/how-ai-makes-decisions"
-            ]
-          },
-          {
-            "group": "HowTo",
-            "pages": [
-              "zh/howto/download-signin"
+            "tab": "投资知识",
+            "groups": [
+              {
+                "group": "投资知识库",
+                "pages": [
+                  "zh/learn/why-quantitative-investing",
+                  "zh/learn/comparison-traditional-vs-quantitative",
+                  "zh/learn/reading-market-language",
+                  "zh/learn/how-ai-makes-decisions",
+                  "zh/learn/comprehensive-faq"
+                ]
+              }
             ]
           }
         ]
       },
       {
         "language": "en",
-        "groups": [
+        "tabs": [
           {
-            "group": "Documentation",
-            "pages": [
-              "en/documentation/overview",
-              "en/documentation/getting-started",
-              "en/documentation/task-signal",
-              "en/documentation/ai-chat",
-              "en/documentation/pricing",
-              "en/documentation/stock-analysis",
-              "en/documentation/news-market",
-              "en/documentation/advanced"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "User Guide",
+                "pages": [
+                  "en/documentation/overview",
+                  "en/documentation/getting-started",
+                  "en/documentation/task-signal",
+                  "en/documentation/ai-chat",
+                  "en/documentation/pricing",
+                  "en/documentation/stock-analysis",
+                  "en/documentation/news-market",
+                  "en/documentation/advanced"
+                ]
+              },
+              {
+                "group": "How-To Guides",
+                "pages": [
+                  "en/howto/download-signin"
+                ]
+              }
             ]
           },
           {
-            "group": "Learn",
-            "pages": [
-              "en/learn/why-quantitative-investing"
-            ]
-          },
-          {
-            "group": "HowTo",
-            "pages": [
-              "en/howto/download-signin"
+            "tab": "Knowledge",
+            "groups": [
+              {
+                "group": "Investment Knowledge",
+                "pages": [
+                  "en/learn/why-quantitative-investing"
+                ]
+              }
             ]
           }
         ]
@@ -100,8 +121,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/os-logo.svg",
+    "dark": "/logo/os-logo.svg"
   },
   "navbar": {
     "links": [],
