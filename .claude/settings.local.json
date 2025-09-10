@@ -8,7 +8,18 @@
       "WebFetch(domain:mintlify.com)",
       "Bash(git init:*)",
       "Bash(git log:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(mintlify dev:*)",
+      "Bash(identify:*)",
+      "Bash(convert:*)",
+      "Bash(+append -background transparent )",
+      "Bash(logo/os-logo-0.png)",
+      "Bash(+append -background none -colorspace sRGB )",
+      "Bash(( logo/logo-text.svg -background transparent -resize x136 ) )",
+      "Bash(+append -background transparent -define png:color-type=6 )",
+      "Bash(git rm:*)",
+      "Bash(chmod:*)",
+      "Bash(./generate-knowledge-pages.sh:*)"
     ],
     "deny": [],
     "ask": []

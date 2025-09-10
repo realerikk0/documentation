@@ -41,13 +41,115 @@
             "tab": "投资知识",
             "groups": [
               {
-                "group": "投资知识库",
+                "group": "交易入门",
                 "pages": [
-                  "zh/learn/why-quantitative-investing",
-                  "zh/learn/comparison-traditional-vs-quantitative",
-                  "zh/learn/reading-market-language",
-                  "zh/learn/how-ai-makes-decisions",
-                  "zh/learn/comprehensive-faq"
+                  "zh/knowledge/market-trading-101/market-types",
+                  "zh/knowledge/market-trading-101/basic-terms",
+                  "zh/knowledge/market-trading-101/trading-hours",
+                  "zh/knowledge/market-trading-101/market-participants"
+                ]
+              },
+              {
+                "group": "基本面分析",
+                "pages": [
+                  "zh/knowledge/fundamentals/macro-indicators",
+                  "zh/knowledge/fundamentals/industry-analysis",
+                  "zh/knowledge/fundamentals/financial-statements",
+                  "zh/knowledge/fundamentals/valuation-methods"
+                ]
+              },
+              {
+                "group": "图表分析",
+                "pages": [
+                  "zh/knowledge/charts/chart-types",
+                  "zh/knowledge/charts/candlestick",
+                  "zh/knowledge/charts/timeframes"
+                ]
+              },
+              {
+                "group": "趋势分析",
+                "pages": [
+                  "zh/knowledge/trends/what-is-trend",
+                  "zh/knowledge/trends/support-resistance",
+                  "zh/knowledge/trends/trendlines",
+                  "zh/knowledge/trends/channels",
+                  "zh/knowledge/trends/retracements",
+                  "zh/knowledge/trends/speed-lines",
+                  "zh/knowledge/trends/fan-lines",
+                  "zh/knowledge/trends/internal-trendlines",
+                  "zh/knowledge/trends/reversal-days",
+                  "zh/knowledge/trends/gaps"
+                ]
+              },
+              {
+                "group": "形态识别",
+                "pages": [
+                  "zh/knowledge/patterns/reversal-patterns",
+                  "zh/knowledge/patterns/continuation-patterns",
+                  "zh/knowledge/patterns/gap-patterns"
+                ]
+              },
+              {
+                "group": "交易量与持仓量",
+                "pages": [
+                  "zh/knowledge/volume/trading-volume",
+                  "zh/knowledge/volume/open-interest",
+                  "zh/knowledge/volume/climax-selling",
+                  "zh/knowledge/volume/cot-report",
+                  "zh/knowledge/volume/option-oi"
+                ]
+              },
+              {
+                "group": "移动平均线",
+                "pages": [
+                  "zh/knowledge/moving-averages/ma-basics",
+                  "zh/knowledge/moving-averages/bollinger-bands",
+                  "zh/knowledge/moving-averages/fibonacci-ma"
+                ]
+              },
+              {
+                "group": "摆动指标",
+                "pages": [
+                  "zh/knowledge/oscillators/momentum",
+                  "zh/knowledge/oscillators/roc",
+                  "zh/knowledge/oscillators/moving-average-oscillator",
+                  "zh/knowledge/oscillators/rsi",
+                  "zh/knowledge/oscillators/stochastic",
+                  "zh/knowledge/oscillators/williams-r",
+                  "zh/knowledge/oscillators/when-effective",
+                  "zh/knowledge/oscillators/macd",
+                  "zh/knowledge/oscillators/sentiment"
+                ]
+              },
+              {
+                "group": "风险与资金管理",
+                "pages": [
+                  "zh/knowledge/risk-management/investment-risks",
+                  "zh/knowledge/risk-management/risk-tolerance",
+                  "zh/knowledge/risk-management/stop-loss-take-profit",
+                  "zh/knowledge/risk-management/risk-reward-ratio",
+                  "zh/knowledge/risk-management/position-sizing",
+                  "zh/knowledge/risk-management/diversification",
+                  "zh/knowledge/risk-management/scaling",
+                  "zh/knowledge/risk-management/equity-curve"
+                ]
+              },
+              {
+                "group": "交易系统构建",
+                "pages": [
+                  "zh/knowledge/trading-system/building-system"
+                ]
+              },
+              {
+                "group": "艾略特波浪理论",
+                "pages": [
+                  "zh/knowledge/elliott-wave/overview",
+                  "zh/knowledge/elliott-wave/corrective-waves",
+                  "zh/knowledge/elliott-wave/alternation",
+                  "zh/knowledge/elliott-wave/channels",
+                  "zh/knowledge/elliott-wave/wave-four",
+                  "zh/knowledge/elliott-wave/fibonacci-ratios",
+                  "zh/knowledge/elliott-wave/time-targets"
                 ]
               }
             ]
