@@ -98,13 +98,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://docs.openstrat.ai/zh/documentation/overview",
-          "icon": "book-open-cover"
-        },
-        {
           "anchor": "Community",
-          "href": "https://discord.gg/openstrat",
+          "href": "https://discord.gg/5qrVqyyrFa",
           "icon": "discord"
         },
         {
@@ -121,8 +116,8 @@
     }
   },
   "logo": {
-    "light": "/logo/os-logo.svg",
-    "dark": "/logo/os-logo.svg"
+    "light": "/logo/os-logo-0.png",
+    "dark": "/logo/os-logo-0.png"
   },
   "navbar": {
     "links": [],
