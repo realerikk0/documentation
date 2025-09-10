@@ -30,6 +30,7 @@
             "group": "投资知识库",
             "pages": [
               "zh/learn/why-quantitative-investing",
+              "zh/learn/comparison-traditional-vs-quantitative",
               "zh/learn/reading-market-language",
               "zh/learn/how-ai-makes-decisions"
             ]
@@ -131,5 +132,14 @@
   },
   "css": [
     "/styles.css"
-  ]
+  ],
+  "seo": {
+    "indexing": "all",
+    "metatags": {
+      "og:type": "website",
+      "og:site_name": "Openstrat Documentation",
+      "description": "Comprehensive documentation for Openstrat - AI-powered quantitative investment platform for US stocks and cryptocurrency markets",
+      "keywords": "quantitative investing, AI trading, algorithmic trading, stock analysis, cryptocurrency, technical analysis, investment platform"
+    }
+  }
 }
